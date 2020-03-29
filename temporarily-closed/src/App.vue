@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld />
+    <img alt="Brand logo" src="./assets/brand_logo.gif" />
+    <FrontPage />
   </div>
 </template>
 
 <script>
-import FrontPage from "./components/HelloWorld.vue";
+import FrontPage from "./components/FrontPage.vue";
 
 export default {
   name: "App",
