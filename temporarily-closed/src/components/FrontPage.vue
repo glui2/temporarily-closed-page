@@ -14,7 +14,7 @@
         <strong>Although our doors will be closed, we will still be available to help you.</strong>
       </p>
     </div>
-    <div>
+    <div class="divDiagram">
       <table>
         <th class="tableHeading">ALL THE WAYS WE ARE HERE TO HELP YOU</th>
         <tr>
@@ -27,7 +27,7 @@
       </table>
     </div>
     <hr />
-    <ul>
+    <ul class="qna">
       <li>
         <p class="colored">When will {{clinicName}} temporarily close its doors?</p>
         <p>Monday 30th March at 5pm.</p>
@@ -50,13 +50,15 @@
       </li>
     </ul>
     <hr />
-    <p>Thank you for your understanding.</p>
-    <p>
-      We look forward to providing you with ongoing eyecare, now and into the future, sending well wishes to you and your families, stay safe and healthy!
-      <br />
-      <br />
-    </p>
-    <p>From the team at Clifton Hill Eyecare Plus.</p>
+    <div class="closingParagraph">
+      <p>Thank you for your understanding.</p>
+      <p>
+        We look forward to providing you with ongoing eyecare, now and into the future, sending well wishes to you and your families, stay safe and healthy!
+        <br />
+        <br />
+      </p>
+      <p>From the team at Clifton Hill Eyecare Plus.</p>
+    </div>
   </div>
 </template>
 
@@ -81,8 +83,7 @@ ul {
   padding: 0;
 }
 li {
-  display: inline-block;
-  margin: 0 10px;
+  margin: 2% auto;
 }
 p {
   width: 70%;
@@ -102,7 +103,11 @@ p {
 }
 .colored {
   color: #f48128;
+  font-weight: bold;
   margin: auto;
+}
+.divDiagram {
+  margin: 3% auto;
 }
 .diagram {
   width: 100%;
@@ -114,5 +119,13 @@ p {
   font-weight: lighter;
   background-color: #f48128;
   padding: 3%;
+}
+.qna {
+  text-align: left;
+  margin: auto;
+}
+.closingParagraph {
+  text-align: left;
+  margin: 3% auto;
 }
 </style>
