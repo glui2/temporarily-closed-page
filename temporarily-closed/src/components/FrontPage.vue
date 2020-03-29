@@ -14,8 +14,8 @@
         <strong>Although our doors will be closed, we will still be available to help you.</strong>
       </p>
     </div>
-    <div class="divDiagram">
-      <table>
+    <div>
+      <table class="tableDiagram">
         <th class="tableHeading">ALL THE WAYS WE ARE HERE TO HELP YOU</th>
         <tr>
           <img
@@ -92,7 +92,7 @@ p {
 .hello {
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: 70%;
   margin: auto;
 }
 .titleMessage {
@@ -106,14 +106,16 @@ p {
   font-weight: bold;
   margin: auto;
 }
-.divDiagram {
+.tableDiagram {
   margin: 3% auto;
+  width: 80%;
 }
 .diagram {
-  width: 100%;
+  width: 90%;
 }
 .tableHeading {
   width: 60%;
+  margin: auto 0;
   color: white;
   font-size: 24px;
   font-weight: lighter;
@@ -126,6 +128,6 @@ p {
 }
 .closingParagraph {
   text-align: left;
-  margin: 3% auto;
+  margin: 3% 0;
 }
 </style>
